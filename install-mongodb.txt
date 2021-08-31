@@ -1,0 +1,23 @@
+install mongodb
+
+docker pull mongo:latest
+cd mongodb
+docker run -d -p 27017:27017 -v mongodb:/data/db --name mymongo mongo:latest
+
+"
+docker exec -it mymongo bash 
+mongo 
+shows dbs
+use test
+db.user.insert({ "name":"truly mittal"})
+WriteResult({ "nInserted" : 1 })
+db.user.find()
+exit
+mongo localhost:27017
+mongo 
+shows dbs
+db.user.find()
+"
+
+
+

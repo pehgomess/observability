@@ -1,0 +1,21 @@
+config spring initializr
+
+https://start.spring.io/
+
+Set
+Maven Project
+Java in Language
+
+Spring Boot set 2.5.4
+
+Project Metadata
+Group: com.sre
+Artifact: testeapm
+Name: testeapm
+Description: Teste Spring Boot com Mongodb
+Package name: com.sre.testeapm
+Packaging: Jar
+Java: 11
+
+Dependencies
+Spring Web
